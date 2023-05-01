@@ -20,3 +20,6 @@ $row = $result->fetch_assoc();
 $count = $row['count'];
 
 echo "<p>Total number of users: ".$count."</p>";
+
+$conn->close();
+?>
